@@ -1,0 +1,20 @@
+#!/bin/bash
+
+set -e
+
+# 更新basic.css
+WEB_BASIC_COMPONENTS='@gw/web-basic-components'
+
+echo "Updating ./src/style/basic.css..."
+
+VERSION=$(node ./scripts/get-dep-version.js $WEB_BASIC_COMPONENTS)
+
+sed -r "s/(@gw\/web-basic-components\/umd\/).*\//\1$VERSION\//" ./src/style/basic.css > _tmp && mv _tmp ./src/style/basic.css
+
+if [ $? == 0 ]; then
+  echo "Update ./src/style/basic.css succeed."
+else
+  echo "Update ./src/style/basic.css failed."
+fi
+
+# End

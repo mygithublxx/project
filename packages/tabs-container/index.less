@@ -1,0 +1,36 @@
+.wbuc-tabs-container {
+  height: 100%;
+
+  .card-tabs {
+    .ant-tabs-nav-wrap {
+      z-index: 2;
+    }
+  }
+
+  .wbuc-tabs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .wbuc-tabs-cintainer-inner {
+      flex: 1 0;
+      min-width: 0;
+      max-width: 100%;
+    }
+
+    .wbuc-tbas-operation-container {
+      width: 12.5rem;
+      height: auto;
+    }
+  }
+
+  .wbuc-tab-children {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 2.875rem);
+    background: #fff;
+    border: 0.125rem solid #fff;
+    border-radius: 0 0.625rem 0.625rem;
+    box-shadow: 0 0.125rem 0.5rem 0 rgba(0, 0, 0, 6%);
+  }
+}

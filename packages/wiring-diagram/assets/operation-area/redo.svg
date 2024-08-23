@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 23备份</title>
+    <g id="接新图编辑" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图板" transform="translate(-198.000000, -51.000000)">
+            <g id="编组-23备份" transform="translate(198.000000, 51.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <g id="撤销备份" transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) translate(1.000000, 2.500000)" fill-rule="nonzero" stroke="#191c26" stroke-linejoin="round">
+                    <path d="M5.5855955,2.6620822 L5.5855955,0 L0,4.71972096 L5.5855955,9.44045373 L5.5855955,6.58580917 C7.1374324,6.58580917 11.9311773,6.58580917 14,11 L14,10.5095201 C14,8.54766462 11.9308841,2.24441943 5.5855955,2.6620822 Z" id="路径"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+@oppBgColor: #1d3b4c;
+
+.wbuc-appearance[data-app-theme="WE-OPP"] {
+  header {
+    background-color: @oppBgColor;
+  }
+
+  aside {
+    background-color: #172f3c;
+
+    .menu {
+      background-color: @oppBgColor;
+    }
+
+    .collect {
+      .collect-box-title,
+      .wbuc-collect-bottom {
+        background-color: @oppBgColor;
+      }
+
+      .collect-item:hover {
+        background-color: #ffffff19;
+
+        &::after {
+          background-color: #3683af;
+        }
+      }
+    }
+  }
+}
+
+.wbuc-menu-box[data-app-theme="WE-OPP"] {
+  .ant-menu-inline .ant-menu-item::after {
+    border-color: #3683af;
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #ffffff19;
+  }
+}

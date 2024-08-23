@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>手车上</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40"></rect>
+    </defs>
+    <g id="页面-1备份" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="rotate(90 20 20)">
+        <g id="新增图标优化" transform="translate(-65.000000, -444.000000)">
+            <g id="编组-21" transform="translate(65.500000, 416.500000)">
+                <g id="编组-18" transform="translate(0.000000, 27.269553)">
+                    <g id="手车上" transform="translate(0.000000, 0.230447)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <path d="M12,39.0832611 L12,25.0832611 C12,23.9786916 12.8954305,23.0832611 14,23.0832611 L28,23.0832611 L28,23.0832611" id="Stroke-1" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(20.000000, 31.083261) rotate(-315.000000) translate(-20.000000, -31.083261) "></path>
+                        <path d="M12,26.4558441 L12,12.4558441 C12,11.3512746 12.8954305,10.4558441 14,10.4558441 L28,10.4558441 L28,10.4558441" id="Stroke-1备份" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(20.000000, 18.455844) rotate(-315.000000) translate(-20.000000, -18.455844) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

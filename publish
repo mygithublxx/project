@@ -1,0 +1,35 @@
+#!/bin/bash
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Colo
+
+echo -e "${GREEN}input a number to update version in the below.${NC}"
+select update_method in major minor patch premajor preminor prepatch prerelease
+do
+if [[ -n $update_method ]]
+then
+  break
+else
+  echo "pick up a way to update version"
+fi
+done
+
+version=$(node ./scripts/pkg-get.js version | tr -d '"')
+new_version=$(npx semver -i ${update_method} "${version}" --preid beta)
+
+echo -n -e "Are you sure update version from ${RED}${version} to ${new_version}${NC}? [y or n] "
+read -n 1 -r
+echo    # (optional) move to a new line
+
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  git pull && npm version "${new_version}" && git push && git push origin v"${new_version}" && yarn build && npm publish
+  if [[ $? -eq 0 ]]
+  then
+    echo
+    echo "publish successes"
+  fi
+else
+  echo "terminated."
+fi
+

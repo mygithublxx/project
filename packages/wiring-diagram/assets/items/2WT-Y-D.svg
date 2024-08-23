@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>双绕组变压器-星/三角</title>
+    <g id="页面-1备份" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新增图标优化" transform="translate(-601.000000, -298.000000)">
+            <g id="双绕组变压器-星/三角" transform="translate(601.500000, 298.552469)">
+                <g id="编组-7备份-4">
+                    <rect id="矩形备份-30" x="0" y="0" width="40" height="40"></rect>
+                    <polyline id="Path-5" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" points="20.0635093 14.4253734 20.0635093 12.0710184 21.4481247 10.4865846"></polyline>
+                    <line x1="19.9364907" y1="11.8867263" x2="18.5518753" y2="10.4934679" id="Path-6" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+                <circle id="Oval" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" cx="20" cy="14.4208302" r="8"></circle>
+                <circle id="Oval备份-2" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" cx="20" cy="25.4208302" r="8"></circle>
+                <polygon id="Path-4备份" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" transform="translate(20.000000, 27.075841) scale(1, -1) translate(-20.000000, -27.075841) " points="17.7284651 25.0758414 22.2715349 25.0758414 20.0653367 29.0758414"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

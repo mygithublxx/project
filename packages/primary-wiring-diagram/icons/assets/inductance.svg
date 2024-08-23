@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="能源监控备份" transform="translate(-233.000000, -581.000000)">
+            <g id="编组-18" transform="translate(233.000000, 581.000000)">
+                <rect id="矩形" x="0" y="0" width="50" height="50"></rect>
+                <g id="编组-10" transform="translate(13.000000, 3.000000)" stroke="#4A4F5C" stroke-width="2">
+                    <circle id="Oval" cx="12.5" cy="12.5" r="11.5"></circle>
+                    <circle id="Oval" cx="12.5" cy="32.5" r="11.5"></circle>
+                    <polygon id="Path-4" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.857385, 32.846516) scale(1, -1) translate(-12.857385, -32.846516) " points="7.23238518 28.4715156 18.4823852 28.4715156 13.0191783 37.2215156"></polygon>
+                    <polyline id="Path-5" stroke-linecap="round" stroke-linejoin="round" points="12.5 17.5 12.5 11.2907154 16.25 7.5"></polyline>
+                    <line x1="12.5" y1="11.25" x2="8.75" y2="7.5" id="Path-6" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

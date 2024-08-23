@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="能源监控备份" transform="translate(-233.000000, -461.000000)">
+            <g id="编组-17" transform="translate(233.000000, 461.000000)">
+                <rect id="矩形" x="0" y="0" width="50" height="50"></rect>
+                <g id="编组-36" transform="translate(7.000000, 5.000000)" stroke="#4A4F5C" stroke-width="1.8">
+                    <ellipse id="Oval" cx="11.7" cy="19.0909091" rx="10.8" ry="10.9181818"></ellipse>
+                    <line x1="11.7" y1="1.00378788" x2="11.7" y2="39.0909091" id="Line-4" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="24.3" y1="20.9090909" x2="35.1" y2="20.9090909" id="Line-5" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="24.3" y1="12.0454545" x2="29.7" y2="27.9545455" id="Line-6" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="27.9" y1="12.0454545" x2="33.3" y2="27.9545455" id="Line-6" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

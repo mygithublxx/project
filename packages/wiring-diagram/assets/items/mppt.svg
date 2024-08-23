@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2备份</title>
+    <g id="20230828" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="40*40" transform="translate(-316.000000, -17.000000)">
+            <g id="编组-2备份" transform="translate(316.000000, 17.000000)">
+                <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+                <g id="编组" transform="translate(5.000000, 9.000000)" stroke="#000">
+                    <polygon id="路径-2" stroke-linejoin="round" points="1.07142857 3.14285714 28.9285714 3.14285714 25.6231165 0 4.37688348 0"></polygon>
+                    <g id="编组-35" transform="translate(0.000000, 2.095238)">
+                        <rect id="矩形" x="0.5" y="0.5" width="29" height="18.9047619" rx="2.16216216"></rect>
+                        <line x1="22.5" y1="2.03571429" x2="22.5" y2="7.39285714" id="直线-2备份-5" stroke-linecap="round" stroke-linejoin="round" transform="translate(22.500000, 4.714286) rotate(90.000000) translate(-22.500000, -4.714286) "></line>
+                        <line x1="22.5" y1="6.22619048" x2="22.5" y2="11.5833333" id="直线-2备份-9" stroke-linecap="round" stroke-linejoin="round" transform="translate(22.500000, 8.904762) rotate(90.000000) translate(-22.500000, -8.904762) "></line>
+                        <rect id="矩形备份-11" x="5.85714286" y="4.69047619" width="8.64285714" height="4.23809524" rx="1.08108108"></rect>
+                        <ellipse id="椭圆形" cx="7.5" cy="14.6666667" rx="1.64285714" ry="1.5952381"></ellipse>
+                        <ellipse id="椭圆形备份" cx="13.9285714" cy="14.6666667" rx="1.64285714" ry="1.5952381"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

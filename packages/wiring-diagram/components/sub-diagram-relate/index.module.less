@@ -1,0 +1,42 @@
+.wrap {
+  max-height: 80%;
+}
+
+.diagram-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 20rem);
+
+  .search {
+    width: 100%;
+    padding: 0.625rem 1.25rem;
+    padding-left: 2rem;
+    border-bottom: 0.0625rem solid #e5e5e5;
+
+    .input {
+      width: 18.75rem;
+      margin: 0.3125rem 0;
+      font-size: 0.875rem;
+      color: #191c26;
+      background-color: #f0f0f0;
+
+      input {
+        background-color: #f0f0f0;
+      }
+
+      .icon {
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.375rem;
+      }
+    }
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+    padding: 1.875rem;
+  }
+}

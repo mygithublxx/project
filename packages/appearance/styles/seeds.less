@@ -1,0 +1,259 @@
+@seedsBgColor: #181c24;
+
+.wbuc-appearance[data-app-theme="We-Seeds-Pro"],
+.wbuc-appearance[data-app-theme="We-Seeds"] {
+  header {
+    background-color: @seedsBgColor;
+    background-image: url("../assets/bg/bg_header_seeds.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+
+    .wbuc-app-dropdown .list-btn {
+      background-image: linear-gradient(90deg, #191c26, #191c26, transparent);
+    }
+  }
+
+  aside {
+    background-color: @seedsBgColor;
+    background-image: url("../assets/bg/bg_side_seeds.png");
+    background-position: left top;
+    background-size: auto 100%;
+
+    .menu {
+      background-color: transparent;
+    }
+
+    .collect {
+      .collect-box-title {
+        background: fade(#fff, 4%);
+        box-shadow: 0 0.0625rem 0 0 fade(#fff, 6%);
+      }
+
+      .collect-item {
+        &:hover {
+          background: fade(#fff, 4%);
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .wbuc-menu-icon {
+    filter: brightness(0) invert(1);
+  }
+}
+
+.wbuc-appearance[data-app-theme="We-Seeds-Pro"] {
+  .wbuc-menu-icon {
+    filter: brightness(1) invert(0.5);
+  }
+}
+
+.wbuc-menu-box[data-app-theme="We-Seeds-Pro"] {
+  // [role="menuitem"]
+  .ant-menu-item.ant-menu-item-selected,
+  .ant-menu-item.ant-menu-item-active {
+    .wbuc-menu-icon {
+      filter: brightness(0) invert(1);
+    }
+  }
+
+  .ant-menu-root.ant-menu-inline
+    > li.ant-menu-item[role="menuitem"]:has(+ .ant-menu-submenu) {
+    border-bottom: 1px solid rgba(232, 232, 232, 20%);
+  }
+
+  .ant-menu-submenu-selected .ant-menu-submenu-title {
+    font-weight: bold;
+  }
+
+  .ant-menu-item.ant-menu-item-selected {
+    font-weight: bold;
+  }
+
+  .ant-menu-root.ant-menu-inline > li.ant-menu-item[role="menuitem"] {
+    height: 3.375rem;
+  }
+
+  .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    height: 3.375rem;
+
+    .wbuc-menu-icon {
+      filter: brightness(0) invert(0.6);
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 6%);
+
+      .wbuc-menu-icon {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  .ant-menu-item {
+    //height: 2.5rem;
+    // background-color: #010208;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 6%);
+
+      .wbuc-menu-title-content-inner {
+        color: #fff;
+      }
+    }
+  }
+
+  .ant-menu-inline .ant-menu-item::after {
+    display: none;
+  }
+
+  .ant-menu:not(.ant-menu-horizontal)
+    .ant-menu-submenu-open
+    .ant-menu-submenu-title {
+    .wbuc-menu-icon {
+      filter: brightness(0) invert(1);
+    }
+
+    .wbuc-menu-title-content {
+      color: rgba(255, 255, 255);
+    }
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) {
+    .wbuc-menu-title-content {
+      color: rgba(255, 255, 255, 60%);
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) {
+    .ant-menu-item-selected {
+      background-color: rgba(255, 255, 255, 6%);
+
+      .wbuc-menu-title-content {
+        flex: none;
+        font-weight: 600;
+        background: linear-gradient(to right, #fff 0%, #fff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .ant-menu-item-selected.ant-menu-item-only-child {
+      &::before {
+        position: absolute;
+        left: 2.125rem;
+        width: 0.125rem;
+        height: 0.875rem;
+        content: "";
+        background: linear-gradient(to bottom, #6d79e4 0%, #ec6e7f 100%);
+      }
+
+      .wbuc-menu-title-content {
+        flex: none;
+        font-weight: 600;
+        background: linear-gradient(to right, #728bff 0%, #ec6e7f 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}
+
+.wbuc-menu-box[data-app-theme="We-Seeds"] {
+  .ant-menu {
+    font-weight: normal;
+    color: #fff;
+  }
+
+  li .ant-menu-item-group-title {
+    position: relative;
+    z-index: 1;
+    width: max-content;
+
+    &::after {
+      position: absolute;
+      top: 64%;
+      right: 0;
+      z-index: -1;
+      width: 0.875rem;
+      height: 0.125rem;
+      content: "";
+      background: linear-gradient(45deg, #6d79e4 0%, #ec6e7f 100%);
+      transform: translateX(-55%);
+    }
+  }
+
+  .ant-menu-light .ant-menu-item:hover {
+    background-color: fade(#fff, 6%);
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    font-weight: bold;
+    background-color: fade(#fff, 4%);
+    box-shadow: 0 0.0625rem 0 0 rgba(255, 255, 255, 6%);
+
+    .wbuc-menu-icon {
+      filter: none;
+    }
+
+    .wbuc-menu-title-content {
+      font-weight: inherit;
+    }
+  }
+
+  .ant-menu-inline .ant-menu-item::after {
+    top: 1.25rem;
+    right: 0.625rem;
+    bottom: 1.25rem;
+    display: block;
+    width: 0.875rem;
+    height: 0.875rem;
+    background-image: url("../assets/menu-icon/seeds-pro/icon_arrow_right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+  }
+}
+
+.wbuc-collect-list-box[data-app-theme="We-Seeds-Pro"] {
+  display: block;
+
+  .collect-box-title {
+    svg:nth-of-type(2) {
+      transition: 0.3s;
+      transform: rotateZ(90deg);
+    }
+  }
+
+  &.wbuc-collect-list-box-collapsed {
+    .collect-box-title {
+      svg:nth-of-type(2) {
+        transform: rotateZ(0deg);
+      }
+    }
+  }
+
+  .collect-item::after {
+    display: none;
+  }
+
+  .wbuc-collect-list-box-popover {
+    .ant-popover-content .ant-popover-inner {
+      background: #191c26;
+
+      .ant-popover-inner-content {
+        background-color: #252833;
+      }
+    }
+  }
+}

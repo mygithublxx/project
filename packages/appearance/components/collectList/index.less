@@ -1,0 +1,175 @@
+@menuTextColor: #a7b4d0;
+
+.wbuc-collect-list-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  margin-top: 0.0625rem;
+  overflow: hidden;
+  font-size: 0.875rem;
+  color: @menuTextColor;
+  transition: height 0.3s;
+
+  > * {
+    padding-right: 1.25rem;
+    padding-left: 24px;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .collect-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    transition: 0.3s;
+
+    > svg {
+      width: 0.875rem;
+      height: 0.875rem;
+    }
+
+    > span:nth-of-type(1) {
+      display: grid;
+      place-items: center;
+      width: 1.25rem;
+      height: 1.25rem;
+
+      > svg {
+        width: 0.875rem;
+        height: 0.875rem;
+      }
+    }
+
+    > span:nth-of-type(2) {
+      display: block;
+      flex: 1;
+      width: 0;
+      min-width: 0;
+      margin-bottom: 0;
+      margin-left: 0.5rem;
+    }
+
+    &::after {
+      position: absolute;
+      right: 0;
+      width: 0.25rem;
+      height: 0;
+      content: "";
+      background: #2373ff;
+      transition: height 0.1s ease-in-out;
+    }
+
+    &:hover {
+      background: fade(#2373ff, 18%);
+
+      &::after {
+        position: absolute;
+        right: 0;
+        width: 0.25rem;
+        height: inherit;
+        content: "";
+        background: #2373ff;
+      }
+    }
+  }
+
+  .collect-box-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.375rem;
+
+    > span {
+      flex: 1;
+      margin-left: 0.5rem;
+    }
+
+    svg {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+
+    svg:nth-of-type(2) {
+      transition: 0.3s;
+    }
+
+    + .collect-item {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.wbuc-collect-bottom {
+  height: 2.5rem;
+}
+
+.wbuc-collect-list-box-collapsed.wbuc-collect-list-box-collapsed {
+  .collect-item {
+    display: none;
+  }
+
+  .collect-box-title.collect-box-title {
+    svg:nth-of-type(2) {
+      transform: rotateX(180deg);
+    }
+  }
+
+  .wbuc-collect-list-only-icon {
+    padding: 0 calc(50% - 0.625rem);
+    cursor: auto;
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  .wbuc-collect-list-box-popover {
+    .ant-popover-content .ant-popover-inner {
+      padding: 0;
+      background: #091a32;
+
+      .ant-popover-title {
+        min-width: unset;
+        height: 2.125rem;
+        padding: 0 1.25rem;
+        font-size: 0.875rem;
+        line-height: 2.125rem;
+        color: #fff;
+        user-select: none;
+      }
+
+      .ant-popover-inner-content {
+        padding: 0.9375rem 0;
+        background-color: #1e2f47;
+        border-radius: 0 0 0.5rem 0.5rem;
+      }
+    }
+  }
+}
+
+.wbuc-popover-item {
+  height: 1rem;
+  padding: 0 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: fade(#fff, 40%);
+  cursor: pointer;
+  background: unset;
+
+  &:hover {
+    color: fade(#fff, 60%);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+}

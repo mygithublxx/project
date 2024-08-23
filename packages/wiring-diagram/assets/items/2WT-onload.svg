@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>新增图标优化123</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新增图标优化123">
+            <rect id="矩形备份-30" x="0" y="0" width="40" height="40"></rect>
+            <circle id="Oval" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" cx="19.2491996" cy="14.4208302" r="8"></circle>
+            <circle id="Oval备份-2" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" cx="19.2491996" cy="25.4208302" r="8"></circle>
+            <line x1="19.0918194" y1="2.47021015" x2="19.0918194" y2="38.0389504" id="路径-4备份-3" stroke="#525F7C" stroke-linecap="round" transform="translate(19.091819, 20.254580) rotate(-124.000000) translate(-19.091819, -20.254580) "></line>
+            <path d="M29.8451491,8.97508935 L33.7631382,9.40391471 C34.3121443,9.46400363 34.70849,9.95777276 34.6484011,10.5067789 C34.6432902,10.5534755 34.6348952,10.5997539 34.6232785,10.6452704 L33.6355164,14.5155246 L33.6355164,14.5155246" id="路径-7" stroke="#525F7C" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

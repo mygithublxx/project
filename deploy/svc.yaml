@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: $APP_NAME
+  namespace: secp
+  labels:
+    app: $APP_NAME
+    version: v1
+  annotations:
+    kubesphere.io/creator: admin
+    kubesphere.io/serviceType: statelessservice
+spec:
+  ports:
+    - name: http-80
+      protocol: TCP
+      port: 80
+      targetPort: 80
+  selector:
+    app: $APP_NAME
+  type: NodePort
+  sessionAffinity: None
+  externalTrafficPolicy: Cluster

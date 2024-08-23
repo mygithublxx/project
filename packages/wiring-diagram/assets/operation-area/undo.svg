@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="接新图编辑" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图板" transform="translate(-167.000000, -51.000000)">
+            <g id="编组-30" transform="translate(167.000000, 51.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M6.5855955,5.1620822 L6.5855955,2.5 L1,7.21972096 L6.5855955,11.9404537 L6.5855955,9.08580917 C8.1374324,9.08580917 12.9311773,9.08580917 15,13.5 L15,13.0095201 C15,11.0476646 12.9308841,4.74441943 6.5855955,5.1620822 Z" id="路径" stroke="#191c26" stroke-linejoin="round" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

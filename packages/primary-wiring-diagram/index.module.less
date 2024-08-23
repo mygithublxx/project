@@ -1,0 +1,55 @@
+@import "../style/variables";
+
+@meta-item-width: 72px;
+
+.metaListWrapper {
+  width: 2 * (@meta-item-width + 2 * @margin-xs) + 20px;
+  overflow-y: auto;
+  background-color: @bg-color-white;
+  height: 100%;
+}
+
+.metaListTitle {
+  font-size: @font-size-sm;
+  text-align: center;
+}
+
+.metaList {
+  display: flex;
+  flex-wrap: wrap;
+  .item {
+    width: @meta-item-width;
+    height: @meta-item-width;
+    background-color: @bg-color-gray;
+    border-radius: @border-radius-xs;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: @margin-xs;
+  }
+  .iconName {
+    user-select: none;
+  }
+}
+
+.canvas {
+  background-color: @bg-color-gray;
+}
+
+.wiringDiagram {
+  position: relative;
+}
+
+.horizonLine:hover, .horizonLine.hover {
+  .circle {
+    stroke: #000;
+    fill: #fff;
+  }
+}
+
+.button {
+  position: absolute;
+  top: @padding-md;
+  right: @padding-md;
+}

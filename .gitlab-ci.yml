@@ -1,0 +1,63 @@
+stages:
+  - sonarlint-everyday
+  - sonarlint-main
+  - deploy
+
+before_script:
+  - export PATH="/Users/sebuci/sonar-scanner-5.0.1.3006-macosx/bin:$PATH"
+  - token=$(cat /Users/sebuci/.sonarlint_token)
+
+# run jenkins job
+dev_umd_deploy:
+  stage: deploy
+  tags: 
+    - jenkins-job
+  variables:
+    JOB: "dev-frontend-web-business-components"
+  script:
+    - gj $JOB -s
+  only:
+    refs:
+      - develop
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /^\d+\.\d+\.\d+/
+  after_script:
+    - echo "Building jenkins job"
+  allow_failure: true
+
+# run jenkins job
+test_umd_deploy:
+  stage: deploy
+  tags: 
+    - jenkins-job
+  variables:
+    JOB: "test-frontend-web-business-components"
+  script:
+    - gj $JOB -s
+  only:
+    refs:
+      - release
+  after_script:
+    - echo "Building jenkins job"
+  allow_failure: true
+
+sonarlint_everyday:
+  stage: sonarlint-everyday
+  only:
+    - schedules
+  tags:
+    - sonarlint-cli
+  script:
+    - echo "开始扫描"
+    - sonar-scanner -Dsonar.login=$token -Dsonar.branch.name=develop
+
+sonarlint_main:
+  stage: sonarlint-main
+  only:
+    refs:
+      - main
+  tags:
+    - sonarlint-cli
+  script:
+    - echo "开始扫描"
+    - sonar-scanner -Dsonar.login=$token -Dsonar.branch.name=main

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>隔离刀闸（开）</title>
+    <g id="页面-1备份" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新增图标优化" transform="translate(-264.000000, -544.000000)">
+            <g id="编组-21" transform="translate(65.500000, 416.500000)">
+                <g id="编组-18" transform="translate(0.000000, 27.269553)">
+                    <g id="隔离刀闸（开）" transform="translate(196.000000, 100.855649)">
+                        <g transform="translate(3.270598, 0.000000)">
+                            <rect id="矩形备份-45" x="0" y="0" width="40" height="40"></rect>
+                            <g id="编组-62" transform="translate(8.767570, 1.868755)" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="11.964859" y1="-1.08888656e-13" x2="11.964859" y2="6.42083025" id="路径-5"></line>
+                                <g id="编组-61" transform="translate(0.000000, 13.807362)">
+                                    <line x1="11.964859" y1="16.0342982" x2="11.964859" y2="22.4551284" id="路径-5备份-4"></line>
+                                    <line x1="11.4249471" y1="-0.491592701" x2="1.47047273" y2="11.5258909" id="路径-5备份-5" transform="translate(6.447710, 5.517149) rotate(-264.636063) translate(-6.447710, -5.517149) "></line>
+                                    <circle id="椭圆形备份-3" cx="11.964859" cy="13.5342982" r="2.5"></circle>
+                                </g>
+                                <circle id="椭圆形" cx="11.964859" cy="8.92083025" r="2.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

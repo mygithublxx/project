@@ -1,0 +1,7 @@
+.ant-table table {
+  display: revert;
+}
+
+.markdown .wbuc-demo-wrapper li + li {
+  margin-top: 0;
+}

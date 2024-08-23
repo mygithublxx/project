@@ -1,0 +1,13 @@
+.replace {
+  position: relative;
+  width: 100%;
+  height: 30px;
+
+  &::after {
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    color: red;
+    content: "不是合法的ReactElement!";
+  }
+}

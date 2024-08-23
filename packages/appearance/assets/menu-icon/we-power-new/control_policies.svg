@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 12备份 9</title>
+    <defs>
+        <linearGradient x1="9.7412326%" y1="8.77698491%" x2="98.8304498%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#19FFA7" offset="0%"></stop>
+            <stop stop-color="#56F7FF" offset="100%"></stop>
+        </linearGradient>
+        <pattern id="pattern-2" width="100%" height="100%" patternUnits="objectBoundingBox">
+            <use xlink:href="#image-3"></use>
+        </pattern>
+        <image id="image-3" width="4" height="4" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAABKADAAQAAAABAAAABAAAAADFbP4CAAAAL0lEQVQIHWP8//+/FgMDgxQQywDxFRYg8R6IQeADEIMFQByQ4HMgZgSpgAEOEAMAovgI0T1MEncAAAAASUVORK5CYII="></image>
+        <pattern id="pattern-4" width="100%" height="100%" patternUnits="objectBoundingBox">
+            <use xlink:href="#image-5"></use>
+        </pattern>
+        <image id="image-5" width="4" height="4" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAABKADAAQAAAABAAAABAAAAADFbP4CAAAAL0lEQVQIHWP8//+/FgMDgxQQywDxFRYg8R6IQeADEIMFQByQ4HMgZgSpgAEOEAMAovgI0T1MEncAAAAASUVORK5CYII="></image>
+        <pattern id="pattern-6" width="100%" height="100%" patternUnits="objectBoundingBox">
+            <use xlink:href="#image-7"></use>
+        </pattern>
+        <image id="image-7" width="4" height="4" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAABKADAAQAAAABAAAABAAAAADFbP4CAAAAL0lEQVQIHWP8//+/FgMDgxQQywDxFRYg8R6IQeADEIMFQByQ4HMgZgSpgAEOEAMAovgI0T1MEncAAAAASUVORK5CYII="></image>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.968358794">
+        <g id="图标" transform="translate(-254.000000, -31.000000)">
+            <g id="编组-12备份-9" transform="translate(254.000000, 31.000000)">
+                <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                <g id="编组-34" transform="translate(1.000000, 1.500000)">
+                    <line x1="4.2" y1="4.85934779" x2="13.8" y2="4.85934779" id="直线-4" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <ellipse id="椭圆形" stroke="url(#pattern-2)" stroke-width="0.5" fill="url(#linearGradient-1)" cx="7.22348256" cy="4.72747733" rx="1.55" ry="1.57142857"></ellipse>
+                    <line x1="4.2" y1="8.50220493" x2="13.8" y2="8.50220493" id="直线-4备份" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="4.2" y1="12.1450621" x2="13.8" y2="12.1450621" id="直线-4备份-2" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <rect id="矩形" stroke="#FFFFFF" x="0.5" y="0.5" width="17" height="16" rx="4.8"></rect>
+                    <ellipse id="椭圆形备份" stroke="url(#pattern-4)" stroke-width="0.5" fill="url(#linearGradient-1)" cx="10.8234826" cy="8.37033447" rx="1.55" ry="1.57142857"></ellipse>
+                    <ellipse id="椭圆形备份-2" stroke="url(#pattern-6)" stroke-width="0.5" fill="url(#linearGradient-1)" cx="7.22348256" cy="12.0131916" rx="1.55" ry="1.57142857"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 20</title>
+    <g id="20230828" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="40*40" transform="translate(-76.000000, -17.000000)">
+            <g id="编组-20" transform="translate(76.000000, 17.000000)">
+                <g id="编组-8备份-2" fill="#D8D8D8" opacity="0">
+                    <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+                </g>
+                <g id="编组-26备份-2" transform="translate(6.000000, 6.000000)">
+                    <rect id="矩形" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="28" height="28"></rect>
+                    <g id="编组-25" transform="translate(0.000000, 0.500000)">
+                        <rect id="矩形" stroke="#000" x="0.5" y="0.5" width="15" height="8" rx="2"></rect>
+                        <path d="" id="矩形" stroke="#000" transform="translate(16.500000, 4.500000) scale(-1, 1) translate(-16.500000, -4.500000) "></path>
+                        <rect id="矩形备份" stroke="#000" x="0.5" y="11.5" width="25" height="15" rx="2"></rect>
+                        <path d="M27.009009,15.5 L27.5,22.5 L27.009009,22.5 C26.8684501,22.5 26.7411978,22.4430272 26.6490853,22.3509147 C26.5569728,22.2588022 26.5,22.1315499 26.5,21.990991 L26.5,21.990991 L26.5,16.009009 C26.5,15.8684501 26.5569728,15.7411978 26.6490853,15.6490853 C26.7411978,15.5569728 26.8684501,15.5 27.009009,15.5 L27.009009,15.5 Z" id="矩形" stroke="#000" transform="translate(27.000000, 19.000000) scale(-1, 1) translate(-27.000000, -19.000000) "></path>
+                        <path d="M9.66666667,13 L7.66666667,25 L2.5,25 C2.22385763,25 2,24.7761424 2,24.5 L2,13.5 C2,13.2238576 2.22385763,13 2.5,13 L9.66666667,13 Z M8.486,14 L3,14 L3,24 L6.819,24 L8.486,14 Z" id="矩形" fill-opacity="0" fill="#000" fill-rule="nonzero"></path>
+                        <path d="M17.3366667,13 L15.3366667,25 L8.67,25 L10.67,13 L17.3366667,13 Z M16.156,14 L11.517,14 L9.85,24 L14.489,24 L16.156,14 Z" id="矩形备份-7" fill-opacity="0" fill="#000" fill-rule="nonzero"></path>
+                        <path d="M23.4966667,13 C23.772809,13 23.9966667,13.2238576 23.9966667,13.5 L23.9966667,24.5 C23.9966667,24.7761424 23.772809,25 23.4966667,25 L16.33,25 L18.33,13 L23.4966667,13 Z M22.996,14 L19.177,14 L17.51,24 L22.996,24 L22.996,14 Z" id="矩形" fill-opacity="0" fill="#000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

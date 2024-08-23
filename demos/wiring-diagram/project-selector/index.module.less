@@ -1,0 +1,16 @@
+.cascader {
+  :global {
+    .ant-cascader-menus {
+      // 第一个元素的宽度
+      > :first-child {
+        width: 12.5rem;
+
+        .ant-cascader-menu-item-content {
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}

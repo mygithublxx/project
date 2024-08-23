@@ -1,0 +1,112 @@
+@starBgColor: #000000;
+
+.wbuc-appearance[data-app-theme="We-Star"] {
+  header {
+    background-color: @starBgColor;
+  }
+
+  aside {
+    background-color: @starBgColor;
+    background-image: url("../assets/bg/bg_side_star.png");
+    background-position: left top;
+    background-size: auto 100%;
+
+    .collect {
+      display: none;
+    }
+  }
+
+  .wbuc-menu-icon {
+    filter: brightness(0) invert(1);
+  }
+}
+
+.wbuc-menu-box[data-app-theme="We-Star"] {
+  .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    height: 3.375rem;
+
+    .wbuc-menu-icon {
+      filter: brightness(0) invert(0.6);
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 6%);
+
+      .wbuc-menu-icon {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  .ant-menu-item {
+    height: 2.5rem;
+    // background-color: #010208;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 6%);
+
+      .wbuc-menu-title-content-inner {
+        color: #fff;
+      }
+    }
+  }
+
+  .ant-menu-inline .ant-menu-item::after {
+    display: none;
+  }
+
+  .ant-menu:not(.ant-menu-horizontal)
+    .ant-menu-submenu-open
+    .ant-menu-submenu-title {
+    .wbuc-menu-icon {
+      filter: brightness(0) invert(1);
+    }
+
+    .wbuc-menu-title-content {
+      color: rgba(255, 255, 255);
+    }
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) {
+    .wbuc-menu-title-content {
+      color: rgba(255, 255, 255, 60%);
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: rgba(255, 255, 255, 6%);
+
+    &::before {
+      position: absolute;
+      left: 2.125rem;
+      width: 0.125rem;
+      height: 0.875rem;
+      content: "";
+      background: linear-gradient(
+        to bottom,
+        #7a68ff 0%,
+        #6f94ff 21%,
+        #7dbeff 76%,
+        #80fff3 100%
+      );
+    }
+
+    .wbuc-menu-title-content {
+      flex: none;
+      font-weight: 600;
+      background: linear-gradient(
+        to right,
+        #7a68ff 0%,
+        #6f94ff 21%,
+        #7dbeff 76%,
+        #80fff3 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

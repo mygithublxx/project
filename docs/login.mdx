@@ -1,0 +1,64 @@
+---
+sidebar_position: 1
+order: 0
+title: LocalLogin
+---
+
+登录获取用户 token，使有些需要 token 组件 demo 正常展示。
+
+import BrowserOnly from "@docusaurus/BrowserOnly";
+import Collapse from "../src/components/Collapse";
+
+## 为什么
+
+- 线上的各个产品可以通过 /login 访问项目内置的登录页，这个登录页是开发者本地开发时获取权限时使用，现在被暴露在生产环境。
+- 现在每个项目都有自己的登录业务逻辑，重复且分散,难以统一更新。
+- 现在每创建一个新的前端项目，都需要去复制一份登录逻辑到本地。
+
+## 示例
+
+- **注意：**新的登录组件默认只有用 webpack devserver 启动时才可以访问，生产环境会默认跳转到应用的 `/`
+
+### 基础使用
+
+这里展示在`800*400`页面上，直接使用`LocalLogin`组件;
+
+import { LocalLoginDemo } from "../demos";
+import LocalLoginDemoSource from "!!raw-loader!../demos/login/localLogin";
+
+<BrowserOnly>{() => <LocalLoginDemo />}</BrowserOnly>
+
+<Collapse>{LocalLoginDemoSource}</Collapse>
+
+### 直接作为页面使用
+
+支持直接作为页面使用，示例如下：
+
+```jsx
+/** 内置的本地登录页 */
+const Login = lazy(() =>
+  import("@gw/web-business-components").then((module) => ({
+    default: module.LocalLogin,
+  }))
+);
+```
+
+通过判断 props 是否有 renderRoute 注入的对象，来判断是否使用页面形式的样式
+
+## hook
+
+### useLogin
+
+useLogin 集成了统一的内置登录逻辑，来保证本地开发使用时，在本地 localStorage 中写入完整正确的数据。
+
+```jsx
+const [{ loading }, login] = useLogin(onSuccess);
+
+return <button onClick={login}>登录</button>;
+```
+
+## API
+
+| 属性      | 描述               | 类型                     | 默认值                |
+| --------- | ------------------ | ------------------------ | --------------------- |
+| onSuccess | 登录成功的回调函数 | （token,userInfo）=>void | ()=>history.push("/") |

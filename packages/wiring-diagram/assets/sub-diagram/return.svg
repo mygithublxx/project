@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 42</title>
+    <defs>
+        <path d="M4,0 L30,0 C32.209139,-4.05812251e-16 34,1.790861 34,4 L34,30 C34,32.209139 32.209139,34 30,34 L4,34 C1.790861,34 2.705415e-16,32.209139 0,30 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <filter x="-2.9%" y="-2.9%" width="105.9%" height="105.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M19.9278281,15.3741997 L11.70375,15.3741997 L15.7029688,11.819434 C15.8965625,11.6473715 15.914,11.3509965 15.7419219,11.1574028 C15.5698594,10.9638715 15.2735156,10.9463559 15.0799219,11.1184497 L10.1786719,15.4750122 C10.0699219,15.5608872 10,15.693809 10,15.8431528 L10,15.8437778 L10,15.8443715 C10,15.8520159 10.000223,15.8596588 10.0006094,15.8672934 C10.0067422,15.9931083 10.0632538,16.1111604 10.1574062,16.1948403 L15.0799063,20.5702778 C15.1655971,20.6466935 15.2764359,20.688863 15.39125,20.6887309 C15.5205313,20.6887309 15.6492813,20.635559 15.7419063,20.5313247 C15.9139688,20.3377622 15.8965313,20.0413559 15.7029531,19.8693247 L11.7009687,16.3120278 L19.9278125,16.3120278 C21.634375,16.3120278 23.0227344,17.7004028 23.0227344,19.4069653 C23.0227344,21.1135278 21.634375,22.5018872 19.9278125,22.5018872 L14.5208594,22.5018872 C14.261875,22.5018872 14.0519219,22.7118403 14.0519219,22.970809 C14.0519219,23.2297778 14.261875,23.4397465 14.5208594,23.4397465 L19.9278125,23.4397465 C22.1515156,23.4397465 23.9606094,21.6306372 23.9606094,19.4069653 C23.9606094,17.1832934 22.1515156,15.3741997 19.9278125,15.3741997 L19.9278281,15.3741997 Z" id="path-3"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IOT数据接入情况-详细数据" transform="translate(-226.000000, -172.000000)">
+            <g id="编组-42" transform="translate(226.000000, 172.000000)">
+                <g id="编组-43">
+                    <g id="矩形备份-6">
+                        <use fill="#F1F2F6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="返回" transform="translate(9.000000, 9.000000)"></g>
+                </g>
+                <rect id="矩形" fill="#9A9CA2" fill-rule="nonzero" opacity="0" x="9" y="15" width="16" height="16"></rect>
+                <g id="路径" fill-rule="nonzero">
+                    <use fill="#272636" xlink:href="#path-3"></use>
+                    <use fill="#9A9CA2" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

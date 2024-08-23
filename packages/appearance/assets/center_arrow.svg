@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon图标/1-Arrow/chevron-down</title>
+    <defs>
+        <path d="M9.99598843,7.71620366 C9.72206159,7.42793211 9.27793841,7.42793211 9.00401157,7.71620366 L5.70544514,11.2398727 C5.43151829,11.5281443 5.43151829,11.9955248 5.70544514,12.2837963 C5.97937198,12.5720679 6.42349516,12.5720679 6.697422,12.2837963 L9.5,9.2820891 L12.302578,12.2837963 C12.5765048,12.5720679 13.020628,12.5720679 13.2945549,12.2837963 C13.5684817,11.9955248 13.5684817,11.5281443 13.2945549,11.2398727 L9.99598843,7.71620366 Z" id="path-1"></path>
+    </defs>
+    <g id="用户中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="中心切换" transform="translate(-160.000000, -79.000000)">
+            <g id="编组-12" transform="translate(20.000000, 79.000000)">
+                <g id="Icon图标/1-Arrow/chevron-down" transform="translate(140.000000, 0.000000)">
+                    <g id="icon-chevron-down" transform="translate(10.000000, 10.000000) scale(-1, 1) rotate(-90.000000) translate(-10.000000, -10.000000) ">
+                        <rect id="Color" x="0" y="0" width="20" height="20"></rect>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="形状结合备份-3" fill="#FFFFFF" transform="translate(9.500000, 10.000000) rotate(-90.000000) translate(-9.500000, -10.000000) " xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

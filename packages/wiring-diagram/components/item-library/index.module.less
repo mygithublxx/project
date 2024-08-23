@@ -1,0 +1,112 @@
+.itemLibrary {
+  position: relative;
+  z-index: 99;
+  display: flex;
+  height: calc(100%);
+  background-color: #191c26;
+  transition: width 0.3s;
+
+  > .collapseIcon {
+    position: absolute;
+    top: calc(50% - 1.25rem);
+    right: -0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0.63rem;
+    height: 2.5rem;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 0 0.31rem 0.31rem 0;
+    box-shadow: 0.12rem 0 0.25rem 0 rgba(25, 28, 38, 10%);
+
+    > img {
+      width: 0.25rem;
+      height: 0.38rem;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.75rem;
+    align-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem 0.5rem;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+
+    > .itemWrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: center;
+      justify-content: center;
+      width: 5rem;
+      height: 5rem;
+      cursor: pointer;
+      user-select: none;
+      background: #f3f6fa;
+      border-radius: 0.38rem;
+
+      > img {
+        width: 2.5rem;
+        height: 2.5rem;
+        user-select: none;
+      }
+
+      > span {
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 0.75rem;
+        color: #191c26;
+      }
+    }
+  }
+
+  > .mask {
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    width: 12rem;
+    height: calc(100%);
+    background-color: #fff9;
+  }
+}
+
+.modal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+
+  .modalItemWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    user-select: none;
+    background: #f3f6fa;
+    border-radius: 0.38rem;
+
+    > img {
+      width: 2.5rem;
+      height: 2.5rem;
+      user-select: none;
+    }
+
+    > span {
+      font-size: 0.75rem;
+      font-weight: 400;
+      line-height: 0.75rem;
+      color: #191c26;
+    }
+  }
+}

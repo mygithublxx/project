@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 14</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="接线图-文本框" transform="translate(-240.000000, -795.000000)">
+            <g id="编组-9-+-编组-9备份-12-+-编组-9备份-2-+-编组-9备份-6-+-编组-9备份-+-编组-9备份-8-+-编组-9备份-9-+-编组-9备份-7-+-编组-9备份-4-+-编组-9备份-5-+-编组-9备份-3-+-编组-9备份-10-+-编组-9备份-11-+-编组-9备份-13-+-矩形-+-编组-23-+-编组-5-+-编组-10蒙版" transform="translate(210.000000, 109.000000)">
+                <g id="编组-29" transform="translate(0.000000, 54.000000)">
+                    <g id="编组-31备份-2" transform="translate(10.000000, 624.000000)">
+                        <g id="编组-14" transform="translate(20.000000, 8.000000)">
+                            <g id="编组-3备份">
+                                <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+                            </g>
+                            <circle id="椭圆形" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" cx="20.5" cy="17.5" r="2.5"></circle>
+                            <path d="M22.9956633,17.6387732 C22.9188364,10.0315609 21.8308618,4 20.5,4 C19.1664425,4 18.0767573,10.0560194 18.0038824,17.6850176" id="路径" stroke="#525F7C"></path>
+                            <line x1="10.0556426" y1="35.044434" x2="31.0127381" y2="35.044434" id="路径-2" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <polygon id="矩形" stroke="#525F7C" stroke-linecap="round" stroke-linejoin="round" points="19 21.3774061 22 21.3774061 23.4624046 35 17.5375954 35"></polygon>
+                            <path d="M28.7612198,27.62501 C28.6843929,20.0177977 27.5964184,13.9862368 26.2655565,13.9862368 C24.931999,13.9862368 23.8423138,20.0422562 23.7694389,27.6712544" id="路径" stroke="#525F7C" transform="translate(26.265329, 20.828746) rotate(120.000000) translate(-26.265329, -20.828746) "></path>
+                            <path d="M17.2301068,27.62501 C17.1532799,20.0177977 16.0653053,13.9862368 14.7344435,13.9862368 C13.400886,13.9862368 12.3112008,20.0422562 12.2383258,27.6712544" id="路径" stroke="#525F7C" transform="translate(14.734216, 20.828746) rotate(240.000000) translate(-14.734216, -20.828746) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

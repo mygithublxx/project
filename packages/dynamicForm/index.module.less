@@ -1,0 +1,47 @@
+.dynamicForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+
+  .title {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #191c26;
+
+    .cutLine {
+      position: absolute;
+      left: -14px;
+      width: 8px;
+      height: 8px;
+      background-color: #3b65ee;
+      border-radius: 2px;
+    }
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  .cancelButton,
+  .confirmButton {
+    height: 40px;
+  }
+
+  .confirmButton {
+    margin-left: 12px;
+  }
+}

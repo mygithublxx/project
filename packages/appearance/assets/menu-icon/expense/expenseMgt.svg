@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>费用模版备份</title>
+    <g id="用户中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图板板" transform="translate(-51.000000, -462.000000)">
+            <g id="费用模版备份" transform="translate(51.000000, 462.000000)">
+                <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                <path
+                    d="M16,2.51744344 C16.3865993,2.51744344 16.7365993,2.67414378 16.9899495,2.92749394 C17.2432997,3.18084411 17.4,3.53084411 17.4,3.91744344 L17.4,3.91744344 L17.4,15 C17.4,15.3865993 17.2432997,15.7365993 16.9899495,15.9899495 C16.7365993,16.2432997 16.3865993,16.4 16,16.4 L16,16.4 L4,16.4 C3.61340068,16.4 3.26340068,16.2432997 3.01005051,15.9899495 C2.75670034,15.7365993 2.6,15.3865993 2.6,15 L2.6,15 L2.6,3.91744344 C2.6,3.53084411 2.75670034,3.18084411 3.01005051,2.92749394 C3.26340068,2.67414378 3.61340068,2.51744344 4,2.51744344 L4,2.51744344 Z"
+                    id="矩形" stroke="currentColor" stroke-width="1.2"></path>
+                <line x1="6.5" y1="12.022836" x2="13.5" y2="12.022836" id="直线-2" stroke="currentColor"
+                    stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="6.5" y1="7.02283603" x2="13.5" y2="7.02283603" id="直线-2备份" stroke="currentColor"
+                    stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

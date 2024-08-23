@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="接新图编辑" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图板" transform="translate(-107.000000, -23.000000)">
+            <g id="编组-35" transform="translate(107.000000, 23.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <g id="编组-33" transform="translate(1.000000, 1.461675)" stroke="#191c26">
+                    <path d="M3.41968166,2.07535532 L3.41968166,2.07535532 L3.41968166,1 C3.41968166,0.44771525 3.86739691,0 4.41968166,0 L12.503015,0 C13.0552997,0 13.503015,0.44771525 13.503015,1 L13.503015,10 C13.503015,10.5522847 13.0552997,11 12.503015,11 L10.4751782,11 L10.4751782,11" id="路径" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,2"></path>
+                    <rect id="矩形" x="0.5" y="2.03832511" width="10" height="11" rx="2"></rect>
+                    <line x1="3" y1="4.54575406" x2="8" y2="4.54575406" id="直线-12" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="3" y1="7.54575406" x2="8" y2="7.54575406" id="直线-12备份-2" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="3" y1="10.5457541" x2="8" y2="10.5457541" id="直线-12备份-3" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

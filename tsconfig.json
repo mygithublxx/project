@@ -1,0 +1,23 @@
+{
+  "include": ["packages/**/*", "demos/**/*", "types/**/*"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/es",
+    "declaration": true,
+    "allowJs": true,
+    "module": "ES6",
+    "target": "ES5",
+    "jsx": "react",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "downlevelIteration": true,
+    "paths": {
+      "@/*": ["packages/*"],
+      "@gw/web-business-components/es/*": ["./es/*"]
+    },
+    "lib": ["DOM"],
+    "noEmit": false,
+    "types": ["@gw/types"]
+  }
+}
