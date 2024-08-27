@@ -10,9 +10,9 @@ title: 安装使用
 ## 安装
 
 ```shell
-yarn add @gw/web-business-components
+yarn add @gw/web-visual-components
 # or
-npm install @gw/web-business-components
+npm install @gw/web-visual-components
 ```
 
 ## 使用
@@ -20,11 +20,11 @@ npm install @gw/web-business-components
 使用 es 模块的方式引入
 
 ```tsx
-import { MqttReduxProvider } from "@gw/web-business-components";
+import { WiringDiagram } from "@gw/web-visual-components";
 ```
 
 使用 cjs 方式引入
 
 ```ts
-const { MqttReduxProvider } = require("@gw/web-business-components");
+const { WiringDiagram } = require("@gw/web-visual-components");
 ```

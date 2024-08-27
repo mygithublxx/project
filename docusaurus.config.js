@@ -60,6 +60,7 @@ const config = {
         searchResultContextMaxLength: 80,
       },
     ],
+    // @ts-ignore
     myPlugin,
   ],
   presets: [
@@ -113,12 +114,6 @@ const config = {
             docId: "intro",
             position: "left",
             label: "组件",
-          },
-          {
-            type: "doc",
-            docId: "standard",
-            position: "left",
-            label: "规范",
           },
           // change the href to your repo
           {

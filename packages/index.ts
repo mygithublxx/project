@@ -7,4 +7,3 @@ export {
 } from "./wiring-diagram";
 //必须
 export { default as LocalLogin } from "./localLogin";
-//必须
