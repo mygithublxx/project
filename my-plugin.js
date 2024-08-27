@@ -80,7 +80,7 @@ const configureWebpackSettings = (config, isServer, utils, content) => {
     resolve: {
       alias: {
         "@": reslove("packages"),
-        "@gw/web-business-components": reslove("./packages"),
+        "@gw/web-visual-components": reslove("./packages"),
         net: false,
         tls: false,
         canvas: false,

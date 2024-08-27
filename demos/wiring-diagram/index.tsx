@@ -117,7 +117,7 @@ const WiringDiagramDemo = () => {
   }, [finalGraphData?.cellsJson]);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.containerbox}>
       <div className={styles.bar}>
         {isSettingState && (
           <NameEditor

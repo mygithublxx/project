@@ -1,8 +1,8 @@
 {
-  "name": "@gw/web-business-components",
-  "libraryName": "GwWebBusinessComponents",
+  "name": "@gw/web-visual-components",
+  "libraryName": "GwWebVisualComponents",
   "version": "2.5.5",
-  "description": "web business components",
+  "description": "web visual components",
   "main": "lib/index.js",
   "license": "ISC",
   "scripts": {
@@ -75,6 +75,7 @@
     "@gw/stylelint-config-gw": "^1.2.0",
     "@gw/types": "^0.4.2",
     "@gw/web-basic-components": "^1.2.5-beta.1",
+    "@gw/web-business-components": "^2.5.6-beta.0",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",
     "@tsconfig/docusaurus": "^1.0.4",
@@ -112,6 +113,7 @@
     "@gw/hooks": "^1.1.0",
     "@gw/odm-db": "^1.1.0",
     "@gw/web-basic-components": "^1.1.4",
+    "@gw/web-business-components": "^2.5.6-beta.0",
     "i18next": "^22.4.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -138,9 +140,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://192.168.226.157:9090/secp/frontend/web-business-components"
+    "url": "http://192.168.226.157:9090/secp/frontend/web-visual-components"
   },
-  "assetsPath": "/static/web-business-components/2.5.5/",
+  "assetsPath": "",
   "files": [
     "umd",
     "es",

@@ -6,7 +6,7 @@ declare module "*.module.less" {
   export default classes;
 }
 
-declare module "@gw/web-business-components" {
+declare module "@gw/web-visual-components" {
   export * from "packages";
 }
 declare module "*.png";
