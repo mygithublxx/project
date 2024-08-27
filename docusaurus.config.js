@@ -16,7 +16,7 @@ const lessDemos = glob.sync(path.resolve(__dirname, "demos/**/*.{less,css}"));
 
 /** @type {import("@docusaurus/types").Config} */
 const config = {
-  title: "GW Web Business Components",
+  title: "GW Web Visual Components",
   tagline: "前端web公共业务组件",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
