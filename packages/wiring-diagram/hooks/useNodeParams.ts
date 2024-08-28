@@ -11,11 +11,16 @@ import {
   setSocText,
   vehicleConstructure,
 } from "../utils/node-painting-utils";
-import { IMqttOnMessageHandle } from "../../mqtt-redux/type";
 import { HandleISD, ResetHandleISD } from "./element-handler/ISD";
 import { HandleGSES, ResetHandleGSES } from "./element-handler/GSES";
 import { HandleHC, ResetHandleHC } from "./element-handler/HC";
 
+/**
+ * 消息处理方法
+ */
+export interface IMqttOnMessageHandle {
+  (buffer: Buffer, topic?: string): void;
+}
 /**
  * 符合条件类型, 1是符合，0是不符合，2是异常数据
  */
